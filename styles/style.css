@@ -21,10 +21,11 @@ body{
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 35%;
+    padding: 2% 0% 0% 0%;
 }
 
 .cabecalho__menu{
+    justify-content: center;
     display: flex;
     gap: 5.5rem;
 }
@@ -154,9 +155,10 @@ body{
 }
 
 .shine-effect{
-    width: 420px;
-    height: 400px;
-    margin-top: 150px;
+    width: 100%;
+    height: 0%;
+    margin-top: 50%;
+    margin-left: -40%;
 
 }
 
@@ -175,9 +177,10 @@ body{
 }
 
 .rodape{
+    margin-top: 10%;
     color: var(--cor-terciaria);
     background-color: var(--cor-primaria);
-    padding: 24px;
+   
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
@@ -255,9 +258,10 @@ body{
     }
     
     .shine-effect{
-        width: 420px;
-        height: 400px;
-        margin-top: 5px;
+        width: 100%;
+        height: 0%;
+        margin-top: 50%;
+        margin-left: 0%;
       }
 
       .imagem_eu{
@@ -286,13 +290,11 @@ body{
         height: 200px;
     }
     .shine-effect{
-        width: 220px;
-        height: 200px;
-        margin-top: 0px;
-    }
-    .rodape{
-        font-size: 0.9rem;
-    }
+        width: 100%;
+        height: 0%;
+        margin-top: 3%;
+        margin-left: 0%;
+      }
     .bug{
         font-size: 0.9rem;
         text-align: center;
