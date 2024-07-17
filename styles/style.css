@@ -47,6 +47,53 @@ body{
     color: var(--cor-hover);
 }
 
+.container {
+    margin-top: 20%;
+    margin-left: 27%;
+    font-family: var(--fonte-primaria);
+    font-size: 0.8rem;
+    text-align: center;
+    background: #3e0137;
+    padding: 1%;
+    border-radius: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+label {
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    display: flex;
+}
+
+input, textarea {
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 0.8rem;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 2%;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+button {
+    margin-left: 40%;
+    display: block;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.3rem;
+    width: 20%;
+    padding: 2px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1ebea5;
+}
 
 .apresentacao{
     padding: 6% 15%;
