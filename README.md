@@ -1,1 +1,1 @@
-This is just useless and kinda broky
+This is just useless and kinda broke
